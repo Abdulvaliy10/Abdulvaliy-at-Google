@@ -377,7 +377,7 @@ footer p {
 #home .profile-picture {
   max-width: 140px;
   margin-right: 40px;
-  border-radius: 50%;
+  /* border-radius: 50%; wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/ 
 }
 @media (max-width: 767.98px) {
   #home .profile-picture {
@@ -385,6 +385,26 @@ footer p {
     margin-bottom: 15px;
   }
 }
+
+#home .g1{
+color: #4285F4;
+}
+#home .o1{
+  color: #EA4335;  
+}
+#home .o2{
+    color: #FBBC05;
+}
+#home .g2{
+    color: #4285F4;
+}
+#home .l{
+    color: #34A853;
+}
+#home .e{
+    color: #EA4335;
+}
+
 #home .social-links {
   margin-top: 15px;
 }
@@ -413,6 +433,7 @@ footer p {
 #home .about-detail .desc {
   color: rgba(0,0,0,0.5);
   font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #post-banner {
   display: block;
