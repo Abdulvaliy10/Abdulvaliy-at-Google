@@ -34,7 +34,7 @@
   content: "\ea96";
 }
 .icon-github:before {
-  content: "\eab0";
+  /* content: "\eab0"; ddddddddddddddddddddddddddddddddddddddddddddddddd */
 }
 
 * {
@@ -377,7 +377,7 @@ footer p {
 #home .profile-picture {
   max-width: 140px;
   margin-right: 40px;
-  /* border-radius: 50%; wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/ 
+  border-radius: 50%; 
 }
 @media (max-width: 767.98px) {
   #home .profile-picture {
@@ -386,24 +386,6 @@ footer p {
   }
 }
 
-#home .g1{
-color: #4285F4;
-}
-#home .o1{
-  color: #EA4335;  
-}
-#home .o2{
-    color: #FBBC05;
-}
-#home .g2{
-    color: #4285F4;
-}
-#home .l{
-    color: #34A853;
-}
-#home .e{
-    color: #EA4335;
-}
 
 #home .social-links {
   margin-top: 15px;
