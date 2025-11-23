@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hackerlar turlari</title>
+        <meta name="author" content="Abdulvaliy Saidalikhonov">
+        <meta property="og:site_name" content="Abdulvaliy's Blog"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:description" content="">
+        <link href="/css/flexgridcombo.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="/css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/jpg" href="/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header class="header--title flex align-items-center">
+            <div class="container">
+                <div class="align-items-center flex">
+                    <div class="logo-wrapper">
+                        <a class="logo" href="/">Abdulvaliy's Blog</a>
+                    </div>
+                    <ul class="nav align-items-center">
+                        <li>
+                            <!-- <a class="list-item" href="https://42.uz">42</a> -->
+                        </li>
+                        <li>
+                            <a class="list-item" href="/blog/">Blog</a>
+                        </li>
+                        <li>
+                            <a class="list-item" href="/talks/">Talks</a>
+                        </li>
+                        <li>
+                            <a class="list-item" href="https://t.me/s/lazyprogrammer1" target="_blank">Channel</a>
+                        </li>
+                    </ul>
+                    <div class="burger-menu">
+                        <div class="bar bar--top"></div>
+                        <div class="bar bar--middle"></div>
+                        <div class="bar bar--bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="progress-bar">
+            <div class="bar"></div>
+        </div>
+        <section class="flex align-items-center">
+            <div class="container">
+                <div class="row article-wrapper justify-center align-top">
+                    <div class="article-header col-md-8">
+                        <h1 class="title">Kiberxavfsizlikning Uch Ustuni — CIA Triada</h1>
+                        <div class="date">
+                            <span>4 November, 2025</span>
+                        </div>
+                    </div>
+                    <article class="content col-md-8 col-12">
+                        <h1>
+                            Kiberxavfsizlikning Uch Ustuni — CIA Triada<br>
+                        </h1>
+                        <address style="display: none">
+                            <br>
+                        </address>
+                        <p>
+                            Kiberxavfsizlik dunyosida eng asosiy va eng ko‘p uchraydigan tushunchalardan biri bu — <em>CIA Triada</em>.
+                             Bu yerda <strong>CIA</strong> so‘zi <strike>Central Intelligence Agency</strike> degani emas.
+                              Bu atama uchta fundamental tamoyilning bosh harflari:
+                        <ul>
+                            <li>Confidentiality (Maxfiylik)</li>
+                            <li>Integrity (Butunlik)</li>
+                            <li>Availability (Mavjudlik)</li>
+                        </ul>
+                             Ushbu triada(uchlik) har qanday axborot tizimi yoki tarmoqni himoya qilishda asosiy tamoyillar sifatida ishlatiladi va
+                              har bir xavfsizlik strategiyasi mana shu uchlikka tayanadi.
+                        </p>
+                        <figure>
+                            <div class="figure_wrapper">
+                                <img src="/images/assets/Kiberxavfsizlikning_3-ustuni.png">
+                            </div>
+                            <figcaption></figcaption>
+                        </figure>
+                        <h5>
+                            <strong>Confidentiality — Maxfiylik</strong>
+                        </h5>
+                        <p>
+                            Maxfiylik shuni anglatadiki, ma’lumotga faqat ruxsat berilgan shaxslar kirishi mumkin.
+Agar maxfiylik yo‘qolsa, ma’lumotlar sizish, oshkor bo‘lish yoki noto‘g‘ri qo‘llarga tushish xavfi paydo bo‘ladi.
+                        </p>
+                        <h6><strong>Maxfiylikni ta’minlash usullari:</strong></h6>
+                        <ul>
+                            <li> Parollar va autentifikatsiya</li>
+                            <li>Shifrlash (Encryption)</li>
+                            <li>2FA / MFA</li>
+                            <li>RBAC (Role-Based Access Control)</li>
+                        </ul>
+                        <blockquote>
+                            Bank kartangiz PIN-kodi — maxfiylikning klassik misoli. U sizdan boshqa odam tomonidan bilinmasligi kerak.
+                        </blockquote>
+                        <h5>
+                            <strong>Integrity — Butunlik</strong>
+                        </h5>
+                        <p>
+                            <strong>Butunlik</strong> ma’lumotning o‘zgarmasligi, buzilmasligi va aniqligini ta’minlaydi.
+Ma’lumotga ruxsatsiz o‘zgartirish kiritilishi — butunlikning buzilishi hisoblanadi.
+                        </p>
+                        <h6>
+                            <strong>Butunlikni ta’minlash usullari:</strong>
+                        </h6>
+                        <ul>
+                            <li>Hashing (MD5, SHA256) </li>
+                            <li>Backup va versiyalarni saqlash </li>
+                            <li>Digital signatures </li>
+                            <li>Audit loglar</li>
+                        </ul>
+                        <blockquote>
+                            Bank hisobingizga 100,000 so‘m bor. Kimdir tizimga kirib, uni 10,000 deb o‘zgartirsa — bu integrity buzilishi.
+                        </blockquote>
+                        <h5>
+                            <strong>Availability — Mavjudlik</strong>
+                        </h5>
+                        <p>
+                            <strong>Mavjudlik</strong> — ma’lumot va tizimlar kerakli paytda ishlashi va mavjud bo‘lishini anglatadi.
+Agar tizim ishlamay qolsa, foydalanuvchi kerakli ma’lumotga kira olmaydi.
+                        </p>
+                        <h6><strong>Mavjudlikni ta’minlash usullari:</strong></h6>
+                        <ul>
+                            <li>DDoS himoyasi</li>
+                            <li>Load balancing</li>
+                            <li>Zaxira serverlar (Failover systems)</li>
+                            <li>24/7 kuzatuv</li>
+                        </ul>
+                        <blockquote>
+                            Telegram ishlamay qolsa, foydalanuvchi hech qanday ma’lumotga kira olmaydi — bu available emas.
+                        </blockquote>
+                        <h5>
+                            <strong>Nega CIA Triada Muhim?</strong>
+                        </h5>
+                        <ul>
+                            <li>Har bir tizim dizayni, ilova xavfsizligi, tarmoq himoyasi aynan shu tamoyillarga asoslanadi.</li>
+                            <li>Xavfsizlik voqealaridan 90% aynan shu uch prinsipning buzilishi sabablidir.</li>
+                            <li>Hujumchilar ko‘pincha bu ustunlardan birini nishonga oladi:</li>
+                            <li style="margin-left: 30px;">DDoS → Availability</li>
+                            <li style="margin-left: 30px;">SQL Injection → Integrity</li>
+                            <li style="margin-left: 30px;">Social Engineering → Confidentiality</li>
+                        </ul>
+                        <h4 id="Xulosa">Xulosa</h4>
+                        <p>
+                            <strong>CIA Triada</strong> — kiberxavfsizlikning markaziy qoidasi. Agar tizimni himoya qilmoqchi bo‘lsangiz, avvalo shu uchlikni to‘liq tushunishingiz kerak. <br>
+Har bir <em>dasturchi</em>, <em>tizim administrator</em> yoki hatto <em>oddiy foydalanuvchi</em> ham shu tamoyillar asosida xavfsizlikni mustahkamlay oladi.
+                        </p>
+                    </article>
+                    <div class="div col-lg-7 col-md-8 col-12">
+                        <div class="subscribe-form " id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
+                            <h6>Obuna Bo'ling</h6>
+                            <p>
+                                Yangi maqola, maruza va darslarimni <a href="https://t.me/lazyprogrammer1">@lazyprogrammer1</a>
+                                telegram kanalimda topishingiz mumkin.
+    
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="custom-pagination col-md-8 col-12">
+                        <div class="pagination-list row">
+                            <li class="col prev">
+                                <a href="/Blog/hackerlar-turlari/" title="&lt;span style=&quot;color:#097e21&quot;&gt;Abdulvaliy&lt;/span&gt;&lt;s style=&quot;color:#dd7973&quot;&gt;jon&lt;/s&gt;  &lt;span style=&quot;color:#097e21&quot;&gt;Pulat&lt;/span&gt;&lt;s style=&quot;color:#dd7973&quot;&gt;ov&lt;/s&gt;">&larr;Previous
+    </a>
+                            </li>
+                            <li class="col">
+                                <a href="/blog/">See More</a>
+                            </li>
+                            <li class="col next">
+                                <a href="/blog/" title="&lt;span style=&quot;color:#097e21&quot;&gt;Abdulvaliy&lt;/span&gt;&lt;s style=&quot;color:#dd7973&quot;&gt;jon&lt;/s&gt;  &lt;span style=&quot;color:#097e21&quot;&gt;Pulat&lt;/span&gt;&lt;s style=&quot;color:#dd7973&quot;&gt;ov&lt;/s&gt;">Next&rarr;
+    </a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <p>
+                &copy; 2025 abdulvaliy.com
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/ScrollMonitor.min.js"></script>
+<script src="/js/TwinMax.min.js"></script>
+<script src="/js/main.js"></script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"44fead0af3af4229b8ccde83e01c3e6e","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+    </body>
+</html>
